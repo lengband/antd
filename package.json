@@ -1,6 +1,6 @@
 {
   "name": "@zhangry/antd",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React组件库",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -13,18 +13,21 @@
   ],
   "scripts": {
     "build": "webpack",
-    "storybook":"start-storybook -p 7006",
-    "build-storybook":"build-storybook",
-    "test:unit":"jest --config unit.jest.js",
-    "test:e2e":"jest --config e2e.jest.js",
-    "test":"npm run test:unit && npm run test:e2e",
-    "compile":"gulp compile"
+    "storybook": "start-storybook -p 7006",
+    "build-storybook": "build-storybook",
+    "test:unit": "jest --config unit.jest.js",
+    "test:e2e": "jest --config e2e.jest.js",
+    "test": "npm run test:unit && npm run test:e2e",
+    "compile": "gulp compile"
   },
   "publishConfig": {
     "access": "public",
     "registry": "http://registry.npmjs.org"
   },
-  "keywords": ["react","Component"],
+  "keywords": [
+    "react",
+    "Component"
+  ],
   "author": "zhangrenyang",
   "license": "MIT",
   "dependencies": {
